@@ -6,58 +6,58 @@ This project fetches and analyzes space-related data using NASA's public API. Th
 
 **Features**
 
-Fetches Astronomy Picture of the Day (APOD) and Near-Earth Object (NEO) data.
+1.Fetches Astronomy Picture of the Day (APOD) and Near-Earth Object (NEO) data.
 
-Uses Requests to interact with NASA's API.
+2.Uses Requests to interact with NASA's API.
 
-Processes JSON responses and extracts relevant data.
+3.Processes JSON responses and extracts relevant data.
 
-Analyzes asteroid data, including element counts and close approaches.
+4.Analyzes asteroid data, including element counts and close approaches.
 
 **Technologies Used**
 
-Python
+-Python
 
-Pandas (for data manipulation)
+-Pandas (for data manipulation)
 
-Requests (for API calls)
+-Requests (for API calls)
 
-Jupyter Notebook
-**
-How to Run the Project**
+-Jupyter Notebook
 
-Clone this repository:
+**How to Run the Project**
+
+**Step_1**: Clone this repository:
 
 git clone https://github.com/yourusername/nasa-api-webscraper.git
 cd nasa-api-webscraper
 
-Install required dependencies:
+**Step_2**: Install required dependencies:
 
 pip install pandas requests
 
-Run the Jupyter Notebook to fetch and analyze NASA API data.
+**Step_3**: Run the Jupyter Notebook to fetch and analyze NASA API data.
 
 **Sample API Endpoints Used**
 
-Astronomy Picture of the Day (APOD):
+1.Astronomy Picture of the Day (APOD):
 
 https://api.nasa.gov/planetary/apod?api_key=YOUR_API_KEY
 
-Near-Earth Object (NEO) Feed:
+2.Near-Earth Object (NEO) Feed:
 
 https://api.nasa.gov/neo/rest/v1/feed?start_date=YYYY-MM-DD&end_date=YYYY-MM-DD&api_key=YOUR_API_KEY
 
 **Results**
 
-Extracted and displayed NASA's Astronomy Picture of the Day.
+-Extracted and displayed NASA's Astronomy Picture of the Day.
 
-Processed asteroid approach data, including the total count and details of close approaches.
+-Processed asteroid approach data, including the total count and details of close approaches.
 
 **Future Improvements**
 
-Add visualizations using Matplotlib/Seaborn.
+-Add visualizations using Matplotlib/Seaborn.
 
-Store results in a structured database.
+-Store results in a structured database.
 
 **Author**
 
