@@ -1,10 +1,10 @@
-NASA API Web Scraper
+**NASA API Web Scraper**
 
-Overview
+**Overview**
 
 This project fetches and analyzes space-related data using NASA's public API. The data includes information on asteroids, astronomical pictures of the day, and other space-related insights. The goal is to demonstrate API data retrieval, processing, and basic analysis using Python.
 
-Features
+**Features**
 
 Fetches Astronomy Picture of the Day (APOD) and Near-Earth Object (NEO) data.
 
@@ -14,7 +14,7 @@ Processes JSON responses and extracts relevant data.
 
 Analyzes asteroid data, including element counts and close approaches.
 
-Technologies Used
+**Technologies Used**
 
 Python
 
@@ -23,8 +23,8 @@ Pandas (for data manipulation)
 Requests (for API calls)
 
 Jupyter Notebook
-
-How to Run the Project
+**
+How to Run the Project**
 
 Clone this repository:
 
@@ -37,7 +37,7 @@ pip install pandas requests
 
 Run the Jupyter Notebook to fetch and analyze NASA API data.
 
-Sample API Endpoints Used
+**Sample API Endpoints Used**
 
 Astronomy Picture of the Day (APOD):
 
@@ -47,18 +47,18 @@ Near-Earth Object (NEO) Feed:
 
 https://api.nasa.gov/neo/rest/v1/feed?start_date=YYYY-MM-DD&end_date=YYYY-MM-DD&api_key=YOUR_API_KEY
 
-Results
+**Results**
 
 Extracted and displayed NASA's Astronomy Picture of the Day.
 
 Processed asteroid approach data, including the total count and details of close approaches.
 
-Future Improvements
+**Future Improvements**
 
 Add visualizations using Matplotlib/Seaborn.
 
 Store results in a structured database.
 
-Author
+**Author**
 
 Grace Muthina
